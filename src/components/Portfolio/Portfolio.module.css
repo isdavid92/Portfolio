@@ -1,0 +1,15 @@
+.Portfolio{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    width: 10em;
+    border-radius: 10em;
+}
+
+.nombre{
+    color: rgb(97,218,251);
+}
