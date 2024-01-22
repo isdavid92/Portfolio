@@ -55,19 +55,19 @@ const Portfolio = () => {
                     </div>
                     <div className={style.divInfoR}>
                         <h3 className={style.infoRflecha}>➤</h3>
-                        <a href="#experiencia">
+                        <a href="#experiencia" className={style.a}>
                             <h3 className={style.infoRPalabra}>Experiencia laboral</h3>
                         </a>
                     </div>
                     <div className={style.divInfoR}>
                         <h3 className={style.infoRflecha}>➤</h3>
-                        <a href="#proyectos">
+                        <a href="#proyectos" className={style.a}>
                             <h3 className={style.infoRPalabra}>Proyectos realizados</h3>
                         </a>
                     </div>
                     <div className={style.divInfoR}>
                         <h3 className={style.infoRflecha}>➤</h3>
-                        <a href="#aptitudes">
+                        <a href="#aptitudes" className={style.a}>
                             <h3 className={style.infoRPalabra}>Aptitudes</h3>
                         </a>
                     </div>
