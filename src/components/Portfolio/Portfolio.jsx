@@ -54,7 +54,7 @@ const Portfolio = () => {
                 <div className={style.infoR}>
                     <div className={style.divInfoR}>
                         <h3 className={style.infoRflecha}>➤</h3>
-                        <a href="#formacion" className={style.a}>
+                        <a href="#contFormacion" className={style.a}>
                             <h3 className={style.infoRPalabra}>Formación académica</h3>
                         </a>
                     </div>

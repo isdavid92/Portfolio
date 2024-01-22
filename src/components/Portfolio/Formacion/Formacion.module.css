@@ -1,6 +1,76 @@
-.formacion{
-    color: white;
+.contFormacion{
     width: 99%;
     height: 100vh;
+}
+
+.formacion{
+    margin: auto;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(84, 218, 255);
+}
+
+.titulo{
+    color: rgb(84, 218, 255);
+}
+
+.info{
+    width: 40%;
+    height: 40%;
     border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.arriba{
+    display: flex;
+    height: 60%;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    height: 60%;
+}
+
+.institucion{
+    color: white;
+    margin: 10px 0 0 20px;
+}
+
+.logro{
+    font-size: 1.39em;
+    color: rgb(14, 125, 156);
+    margin: 10px 0 0 20px;
+}
+
+.fecha{
+    color: rgb(179, 179, 179);
+    margin: 10px 0 0 20px;
+}
+
+.contLogo{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.logo{
+    width: 50%;
+    margin: 0;
+}
+
+.abajo{
+    width: 100%;
+    height: 40%;
+}
+
+.apt{
+    color: rgb(179, 179, 179);
 }
