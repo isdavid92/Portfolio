@@ -2,7 +2,7 @@ import style from "./Experiencia.module.css";
 
 const Experiencia = () => {
     return (
-        <div className={style.experiencia}>
+        <div className={style.experiencia} id="experiencia">
             EXPERIENCIA
         </div>
     )

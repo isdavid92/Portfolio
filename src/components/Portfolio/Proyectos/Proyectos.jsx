@@ -2,7 +2,7 @@ import style from "./Proyectos.module.css";
 
 const Proyectos = () => {
     return (
-        <div className={style.proyectos}>
+        <div className={style.proyectos} id="proyectos">
             PROYECTOS
         </div>
     )

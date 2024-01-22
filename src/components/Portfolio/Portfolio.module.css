@@ -5,6 +5,26 @@
     flex-direction: column;
 }
 
+.descBoton{
+    position: absolute;
+    transform: translateX(-65vh) translateY(4vh) skew(-15deg);
+    border: 1px solid rgb(71, 168, 195);
+    border-style: none solid solid none;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid rgb(84, 218, 255);
+        border-style: none solid solid none;
+    }
+}
+
+.descargar{
+    margin: 5px 15px;
+    color: rgb(150, 145, 145);
+    &:hover{
+        color: rgb(203, 201, 201);
+    }
+}
+
 .encabezado{
     display: flex;
     flex-direction: column;
@@ -93,28 +113,4 @@
         color: rgb(97,218,251);
         text-decoration: underline;
     }
-}
-
-.formacion{
-    width: 99%;
-    height: 100vh;
-    border: 1px solid white;
-}
-
-.experiencia{
-    width: 99%;
-    height: 100vh;
-    border: 1px solid white;
-}
-
-.proyectos{
-    width: 99%;
-    height: 100vh;
-    border: 1px solid white;
-}
-
-.aptitudes{
-    width: 99%;
-    height: 100vh;
-    border: 1px solid white;
 }
