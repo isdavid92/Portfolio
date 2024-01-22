@@ -18,6 +18,25 @@
     height: 45vh;
 }
 
+.foto{
+    width: 10em;
+    border-radius: 10em;
+    margin-top: auto;
+    border: 3px solid rgb(192, 192, 192);
+}
+
+.nombre{
+    color: rgb(97,218,251);
+}
+
+.presentacion{
+    color: rgb(255, 255, 255);
+    width: 70%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
 .infoL{
     width: 50%;
 }
@@ -30,7 +49,7 @@
 
 .icon{
     width: 2.4em;
-    margin-left: 4em;
+    margin-left: 27%;
     cursor: pointer;
 }
 
@@ -51,23 +70,51 @@
 
 .infoR{
     width: 50%;
-    background-color: rgba(255, 255, 255, 0.07);
 }
 
-.foto{
-    width: 10em;
-    border-radius: 10em;
-    margin-top: auto;
+.divInfoR{
+    display: flex;
+    align-items: center;
+    height: 19%;
 }
 
-.nombre{
+.infoRflecha{
     color: rgb(97,218,251);
+    margin-right: 0.5em;
+    margin-left: 27%;
 }
 
-.presentacion{
-    color: white;
-    width: 60%;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: auto;
+.infoRPalabra{
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    &:hover{
+        color: rgb(97,218,251);
+        text-decoration: underline;
+    }
+}
+
+.formacion{
+    width: 99%;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+.experiencia{
+    width: 99%;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+.proyectos{
+    width: 99%;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+.aptitudes{
+    width: 99%;
+    height: 100vh;
+    border: 1px solid white;
 }
