@@ -1,76 +1,132 @@
-.contFormacion{
+.contFormacion {
     width: 99%;
     height: 100vh;
 }
 
-.formacion{
+.formacion {
     margin: auto;
     width: 90%;
     height: 90vh;
-    display: flex;
-    align-items: center;
     border: 1px solid rgb(84, 218, 255);
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.titulo{
+.divFlecha {
+    position: absolute;
+    display: flex;
+    top: 110%;
+    right: 10%;
+}
+
+.flecha {
+    color: rgb(84, 218, 255);
+    margin: 0;
+}
+
+.aFlecha {
+    text-decoration: none;
+}
+
+.home {
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+    }
+}
+
+.titulo {
     color: rgb(84, 218, 255);
 }
 
-.info{
-    width: 40%;
-    height: 40%;
-    border: 1px solid white;
+.card {
+    margin: auto;
+    width: 35%;
+    height: 35%;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+    -webkit-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+    -moz-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
 }
 
-.arriba{
+.arriba {
     display: flex;
-    height: 60%;
+    height: 80%;
 }
 
-.encabezado{
+.encabezado {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 60%;
-    height: 60%;
+    width: 84%;
 }
 
-.institucion{
+.institucion {
     color: white;
-    margin: 10px 0 0 20px;
+    margin: 12px 0 0 20px;
 }
 
-.logro{
-    font-size: 1.39em;
-    color: rgb(14, 125, 156);
-    margin: 10px 0 0 20px;
+.logro {
+    font-size: 1.5em;
+    color: rgb(5, 171, 217);
+    margin: 12px 0 0 20px;
+    text-align: start;
 }
 
-.fecha{
+@media only screen and (max-width: 1200px) {
+    .logro {
+        font-size: 1em;
+    }
+}
+
+.fecha {
     color: rgb(179, 179, 179);
-    margin: 10px 0 0 20px;
+    margin: 12px 0 0 20px;
 }
 
-.contLogo{
-    width: 40%;
-    height: 60%;
+.a {
+    text-decoration: none;
+}
+
+.ver {
+    color: rgb(8, 145, 183);
+    margin: 12px 0 0 20px;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.contLogo {
+    width: 16%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.logo{
-    width: 50%;
+.logo {
+    width: 100%;
     margin: 0;
 }
 
-.abajo{
+.abajo {
     width: 100%;
-    height: 40%;
+    height: 20%;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
 }
 
-.apt{
-    color: rgb(179, 179, 179);
+.apt {
+    margin: 0;
+    color: rgb(0, 0, 0);
 }

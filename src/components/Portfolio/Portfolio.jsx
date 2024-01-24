@@ -9,7 +9,7 @@ const Portfolio = () => {
 
     return (
         <div className={style.Portfolio} id="portfolio">
-            <a href="https://drive.google.com/file/d/1XacLpq6YpSkXyITY1_0FtLa-hgf-ECQh/view?usp=sharing" className={style.a} target="blank">
+            <a href="https://drive.google.com/file/d/1NR7sq7-eHqy37OLX7_Y1KYmIKTxMnHhF/view?usp=sharing" className={style.a} target="blank">
                 <div className={style.descBoton}>
                     <h3 className={style.descargar}>Descargar CV</h3>
                 </div>
