@@ -82,6 +82,7 @@ const Portfolio = () => {
             <Experiencia />
             <Proyectos />
             <Aptitudes /> 
+            <p className={style.copyright}>Copyright © 2024 ISRAEL DAVID AGUILAR CEPEDA</p>
         </div>
     )
 };

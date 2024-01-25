@@ -1,0 +1,5 @@
+"homepage": "https://isdavid92.github.io/isdavid92.github.io/build",
+
+isdavid92.github.io
+
+npm run build
