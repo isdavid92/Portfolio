@@ -1,9 +1,9 @@
-.experiencia {
+.contExperiencia {
     width: 99%;
     height: 100vh;
 }
 
-.formacion {
+.experiencia {
     margin: auto;
     width: 90%;
     height: 90vh;
@@ -69,7 +69,7 @@
     width: 84%;
 }
 
-.institucion {
+.empresa {
     color: white;
     margin: 7px 0 0 20px;
 }
@@ -90,19 +90,6 @@
 .fecha {
     color: rgb(179, 179, 179);
     margin: 7px 0 0 20px;
-}
-
-.a {
-    text-decoration: none;
-}
-
-.ver {
-    color: rgb(8, 145, 183);
-    margin: 12px 0 0 20px;
-    cursor: pointer;
-    &:hover{
-        text-decoration: underline;
-    }
 }
 
 .contLogo {

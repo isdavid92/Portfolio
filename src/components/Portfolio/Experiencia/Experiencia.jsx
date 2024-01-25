@@ -7,8 +7,8 @@ import renault from "../../../Assets/img/renault.jpg";
 
 const Experiencia = () => {
     return (
-        <div className={style.experiencia} id="experiencia">
-            <fieldset className={style.formacion}>
+        <div className={style.contExperiencia} id="experiencia">
+            <fieldset className={style.experiencia}>
 
                 <div className={style.divFlecha}>
                     <h3 className={style.flecha}>➤</h3>
@@ -24,7 +24,7 @@ const Experiencia = () => {
                 <div className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
-                            <h3 className={style.institucion}>Soy Henry</h3>
+                            <h3 className={style.empresa}>Soy Henry</h3>
                             <h3 className={style.logro}>Programador Web Full Stack</h3>
                             <h4 className={style.fecha}>Mar 2023 - Nov 2023</h4>
                         </div>
@@ -44,7 +44,7 @@ const Experiencia = () => {
                 <div className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
-                            <h3 className={style.institucion}>TECNICAM cctv</h3>
+                            <h3 className={style.empresa}>TECNICAM cctv</h3>
                             <h3 className={style.logro}>Técnico Cámaras seguridad</h3>
                             <h4 className={style.fecha}>Jun 2015 - Actualmente</h4>
                         </div>
@@ -65,7 +65,7 @@ const Experiencia = () => {
                 <div className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
-                            <h3 className={style.institucion}>ALS global</h3>
+                            <h3 className={style.empresa}>ALS global</h3>
                             <h3 className={style.logro}>Supervisor de Mantenimiento</h3>
                             <h4 className={style.fecha}>Ene 2015 – Jun 2015</h4>
                         </div>
@@ -87,7 +87,7 @@ const Experiencia = () => {
                 <div className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
-                            <h3 className={style.institucion}>Energitelco</h3>
+                            <h3 className={style.empresa}>Energitelco</h3>
                             <h3 className={style.logro}>Técnico instalador</h3>
                             <h4 className={style.fecha}>Jun 2014 – Dic 2014</h4>
                         </div>
@@ -105,7 +105,7 @@ const Experiencia = () => {
                 <div className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
-                            <h3 className={style.institucion}>SOFASA Renault</h3>
+                            <h3 className={style.empresa}>SOFASA Renault</h3>
                             <h3 className={style.logro}>Auxiliar de mantenimiento</h3>
                             <h4 className={style.fecha}>Ene 2014 – Jun 2014</h4>
                         </div>

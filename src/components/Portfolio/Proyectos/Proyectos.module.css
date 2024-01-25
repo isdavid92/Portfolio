@@ -1,6 +1,105 @@
-.proyectos{
-    color: white;
+.contProyectos {
     width: 99%;
     height: 100vh;
-    border: 1px solid white;
+}
+
+.proyectos {
+    margin: auto;
+    width: 90%;
+    height: 90vh;
+    border: 1px solid rgb(84, 218, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divFlecha {
+    position: absolute;
+    display: flex;
+    top: 310%;
+    right: 10%;
+}
+
+.flecha {
+    color: rgb(84, 218, 255);
+    margin: 0;
+}
+
+.aFlecha {
+    text-decoration: none;
+}
+
+.home {
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    
+    &:hover {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+    }
+}
+
+.contPantallazo {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 100%;
+    margin: 0;
+}
+
+.titulo {
+    color: rgb(84, 218, 255);
+}
+
+.card {
+    margin: auto;
+    width: 28%;
+    height: 35%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+    -webkit-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+    -moz-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+}
+
+.arriba {
+    display: flex;
+    height: 50%;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 84%;
+}
+
+.institucion {
+    color: white;
+    margin: 7px 0 0 20px;
+}
+
+.logro {
+    font-size: 1em;
+    color: rgb(5, 171, 217);
+    margin: 7px 0 0 20px;
+    text-align: start;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logro {
+        font-size: 0.75em;
+    }
+}
+
+.fecha {
+    color: rgb(179, 179, 179);
+    margin: 7px 0 0 20px;
 }
