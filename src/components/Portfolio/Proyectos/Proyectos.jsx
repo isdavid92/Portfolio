@@ -19,14 +19,15 @@ const Proyectos = () => {
 
                 <div className={style.card}>
                     <div className={style.contPantallazo}>
-                        <a href="https://www.soyhenry.com/" target="blank" className={style.a}>
-                            <img className={style.logo} src={moveon} alt="henry" />
-                        </a>
+                        <img className={style.pantallazo} src={moveon} alt="henry" />
                     </div>
                     <div className={style.encabezado}>
-                        <h3 className={style.institucion}>Soy Henry</h3>
+                        <h3 className={style.nombre}>moveon</h3>
                         <h3 className={style.logro}>Programador Web Full Stack</h3>
-                        <h4 className={style.fecha}>Mar 2023 - Nov 2023</h4>
+                        <h4 className={style.fecha}>Sep 2023</h4>
+                        <a href="https://certificates.soyhenry.com/new-cert?id=ebb3efb79682b045e43b41f61ed915a44a595116857cc2a4d4b7a6885fff8b44" target="blank" className={style.a}>
+                            <p className={style.ver}>{"Ver repositorio aquí >>"}</p>
+                        </a>
                     </div>
                 </div>
 
