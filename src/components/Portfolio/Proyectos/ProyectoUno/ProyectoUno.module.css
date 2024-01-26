@@ -10,14 +10,26 @@
     -moz-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
 }
 
-.relleno{
-    height: 100%;
+.pantallazos{
+    flex-direction: column;
+    display: flex;
     width: 50%;
+    height: 100%;
 }
 
-.contPantallazo {
-    height: 100%;
-    position: relative;
+.contPantallazo1 {
+    margin-bottom: auto;
+    display: flex;
+}
+
+.contPantallazo2 {
+    margin: auto;
+    display: flex;
+}
+
+.contPantallazo3 {
+    margin-top: auto;
+    display: flex;
 }
 
 .contPantallazoFull {
@@ -27,22 +39,27 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(27, 26, 26, 0.925);
     cursor: zoom-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pantallazo {
     margin: auto;
-    height: 100%;
+    width: 100%;
     margin: 0;
     cursor: zoom-in;
+    border: 1px solid rgb(2, 88, 112);
 }
 
 .pantallazoFull {
     margin: auto;
-    height: 100%;
+    height: 80%;
     margin: 0;
     cursor: zoom-out;
+    border: 1px solid rgb(5, 171, 217);
 }
 
 .encabezado {
@@ -52,23 +69,23 @@
     width: 50%;
 }
 
-.nombre {
-    color: white;
-    margin: 5px 0 0 20px;
+.fecha {
+    color: rgb(5, 171, 217);
+    font-size: 1em;
+    margin: 7px 0 8px 20px;
+    text-align: start;
 }
 
-.fecha {
-    font-size: 1em;
-    color: rgb(5, 171, 217);
-    margin: 7px 0 0 20px;
-    text-align: start;
+.nombre {
+    margin: 8px 0 8px 20px;
+    color: white;
 }
 
 .descripcion {
     color: rgb(179, 179, 179);
-    margin: 6px 20px 0 20px;
+    margin: 8px 20px 0 20px;
     text-align: justify;
-    font-size: 11.6px;
+    font-size: 11.9px;
 }
 
 .aptitudes{
@@ -98,7 +115,7 @@
 
 .ir {
     margin: 0 0 0 0;
-    color: rgb(8, 145, 183);
+    color: rgb(79, 85, 247);
     cursor: pointer;
 
     &:hover {

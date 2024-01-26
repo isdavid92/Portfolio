@@ -6,33 +6,36 @@ import { useState } from "react";
 
 const ProyectoDos = () => {
 
-    const [isFullScreen, setIsFullScreen] = useState(false);
+    const [isFullScreen1, setIsFullScreen1] = useState(false);
+    const [isFullScreen2, setIsFullScreen2] = useState(false);
+    const [isFullScreen3, setIsFullScreen3] = useState(false);
 
-    const contFullScreen1 = () => !isFullScreen ? style.contPantallazo1 : style.contPantallazoFull1;
-    const contFullScreen2 = () => !isFullScreen ? style.contPantallazo2 : style.contPantallazoFull2;
-    const contFullScreen3 = () => !isFullScreen ? style.contPantallazo3 : style.contPantallazoFull3;
+    const contFullScreen1 = () => !isFullScreen1 ? style.contPantallazo1 : style.contPantallazoFull;
+    const contFullScreen2 = () => !isFullScreen2 ? style.contPantallazo2 : style.contPantallazoFull;
+    const contFullScreen3 = () => !isFullScreen3 ? style.contPantallazo3 : style.contPantallazoFull;
 
-    const pantallazoFullScreen = () => !isFullScreen ? style.pantallazo : style.pantallazoFull;
+    const pantallazoFullScreen1 = () => !isFullScreen1 ? style.pantallazo : style.pantallazoFull;
+    const pantallazoFullScreen2 = () => !isFullScreen2 ? style.pantallazo : style.pantallazoFull;
+    const pantallazoFullScreen3 = () => !isFullScreen3 ? style.pantallazo : style.pantallazoFull;
 
     return (
         <div className={style.ProyectoDos}>
             <div className={style.pantallazos}>
-                <div className={contFullScreen1()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)}>
-                    <img className={pantallazoFullScreen()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)} src={food1} alt="food1" />
+                <div className={contFullScreen1()} onClick={() => !isFullScreen1 ? setIsFullScreen1(true) : setIsFullScreen1(false)}>
+                    <img className={pantallazoFullScreen1()} onClick={() => !isFullScreen1 ? setIsFullScreen1(true) : setIsFullScreen1(false)} src={food1} alt="food1" />
                 </div>
-                <div className={contFullScreen2()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)}>
-                    <img className={pantallazoFullScreen()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)} src={food2} alt="food2" />
+                <div className={contFullScreen2()} onClick={() => !isFullScreen2 ? setIsFullScreen2(true) : setIsFullScreen2(false)}>
+                    <img className={pantallazoFullScreen2()} onClick={() => !isFullScreen2 ? setIsFullScreen2(true) : setIsFullScreen2(false)} src={food2} alt="food2" />
                 </div>
-                <div className={contFullScreen3()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)}>
-                    <img className={pantallazoFullScreen()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)} src={food3} alt="food3" />
+                <div className={contFullScreen3()} onClick={() => !isFullScreen3 ? setIsFullScreen3(true) : setIsFullScreen3(false)}>
+                    <img className={pantallazoFullScreen3()} onClick={() => !isFullScreen3 ? setIsFullScreen3(true) : setIsFullScreen3(false)} src={food3} alt="food3" />
                 </div>
             </div>
             <div className={style.encabezado}>
-                <h3 className={style.fecha}>Sep 2023</h3>
-                <h2 className={style.nombre}>MoveOn</h2>
-                <h6 className={style.descripcion}>Tienda virtual que permite la compra de productos deportivos, suplementos y   proteína.
-                    Cuenta con dos vistas, usuario, y admin, con ambos permite registrarse, comprar, ver los productos, filtrarlos, modificar el perfil. Siendo admin podrá agregar y modificar productos, ver usuarios registrados y actualiza el estado de la compra.</h6>
-                <a href="https://github.com/fernandoiosono/HENRYPF?tab=readme-ov-file" target="blank" className={style.a}>
+                <h3 className={style.fecha}>Ago 2023</h3>
+                <h2 className={style.nombre}>Food</h2>
+                <h6 className={style.descripcion}>En esta aplicación podrás encontrar una gran variedad de recetas de comida en un aproximado de cinco mil o más donde con tan solo escribir el nombre en el buscador, encontrarás múltiples opciones; también puedes agregar tu propia receta con su nombre, descripción, pasos, tipos de dietas, nivel de salud e imagen.</h6>
+                <a href="https://github.com/isdavid92/PI-Food-main" target="blank" className={style.a}>
                     <p className={style.ir}>{"Ir al repositorio >>"}</p>
                 </a>
                 <div className={style.aptitudes}>

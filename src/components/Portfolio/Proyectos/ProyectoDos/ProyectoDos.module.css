@@ -11,7 +11,6 @@
 }
 
 .pantallazos{
-    margin: 0;
     flex-direction: column;
     display: flex;
     width: 50%;
@@ -19,22 +18,21 @@
 }
 
 .contPantallazo1 {
-    height: max-content;
-    background-color: beige;
     margin-bottom: auto;
+    display: flex;
 }
 
 .contPantallazo2 {
     margin: auto;
-    background-color: aqua;
+    display: flex;
 }
 
 .contPantallazo3 {
-    background-color: beige;
     margin-top: auto;
+    display: flex;
 }
 
-.contPantallazoFull1 {
+.contPantallazoFull {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,47 +42,22 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
-    cursor: zoom-out;
-}
-
-.contPantallazoFull2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: fixed;
-    z-index: 9;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
-    cursor: zoom-out;
-}
-
-.contPantallazoFull3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: fixed;
-    z-index: 9;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(27, 26, 26, 0.925);
     cursor: zoom-out;
 }
 
 .pantallazo {
+    margin: auto;
     width: 100%;
     cursor: zoom-in;
+    border: 1px solid rgb(2, 88, 112);
 }
 
 .pantallazoFull {
     width: 80%;
     margin: 0;
     cursor: zoom-out;
+    border: 1px solid rgb(5, 171, 217);
 }
 
 .encabezado {
@@ -94,23 +67,23 @@
     width: 50%;
 }
 
-.nombre {
-    color: white;
-    margin: 5px 0 0 20px;
+.fecha {
+    color: rgb(5, 171, 217);
+    font-size: 1em;
+    margin: 7px 0 8px 20px;
+    text-align: start;
 }
 
-.fecha {
-    font-size: 1em;
-    color: rgb(5, 171, 217);
-    margin: 7px 0 0 20px;
-    text-align: start;
+.nombre {
+    margin: 8px 0 8px 20px;
+    color: white;
 }
 
 .descripcion {
     color: rgb(179, 179, 179);
-    margin: 6px 20px 0 20px;
+    margin: 8px 20px 0 20px;
     text-align: justify;
-    font-size: 11.6px;
+    font-size: 11.9px;
 }
 
 .aptitudes{
@@ -140,7 +113,7 @@
 
 .ir {
     margin: 0 0 0 0;
-    color: rgb(8, 145, 183);
+    color: rgb(79, 85, 247);
     cursor: pointer;
 
     &:hover {
