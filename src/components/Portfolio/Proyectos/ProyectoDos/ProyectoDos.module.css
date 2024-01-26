@@ -1,0 +1,149 @@
+.ProyectoDos {
+    margin: auto;
+    width: 60vh;
+    height: 60vh;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+    -webkit-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+    -moz-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
+}
+
+.pantallazos{
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.contPantallazo1 {
+    height: max-content;
+    background-color: beige;
+    margin-bottom: auto;
+}
+
+.contPantallazo2 {
+    margin: auto;
+    background-color: aqua;
+}
+
+.contPantallazo3 {
+    background-color: beige;
+    margin-top: auto;
+}
+
+.contPantallazoFull1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    cursor: zoom-out;
+}
+
+.contPantallazoFull2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    cursor: zoom-out;
+}
+
+.contPantallazoFull3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    cursor: zoom-out;
+}
+
+.pantallazo {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+.pantallazoFull {
+    width: 80%;
+    margin: 0;
+    cursor: zoom-out;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.nombre {
+    color: white;
+    margin: 5px 0 0 20px;
+}
+
+.fecha {
+    font-size: 1em;
+    color: rgb(5, 171, 217);
+    margin: 7px 0 0 20px;
+    text-align: start;
+}
+
+.descripcion {
+    color: rgb(179, 179, 179);
+    margin: 6px 20px 0 20px;
+    text-align: justify;
+    font-size: 11.6px;
+}
+
+.aptitudes{
+    display: flex;
+    margin: auto 0 4px 20px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.aptitud{
+    margin: 0 20px 5px 0;
+    border-radius: 5px;
+    padding: 0 4px 1px 4px;
+    background-color: rgb(84, 218, 255);
+}
+
+.aptitudImg{
+    margin: 0 20px 5px 0;
+    border: 1px solid rgb(84, 218, 255);
+    border-radius: 5px;
+}
+
+.a {
+    text-decoration: none;
+    margin: 3px 0 auto 20px;
+}
+
+.ir {
+    margin: 0 0 0 0;
+    color: rgb(8, 145, 183);
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
