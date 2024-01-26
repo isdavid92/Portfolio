@@ -21,7 +21,7 @@ const Experiencia = () => {
                     <h1 className={style.titulo}>EXPERIENCIA</h1>
                 </legend>
 
-                <div className={style.card}>
+                <a href="https://www.soyhenry.com/" target="blank" className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
                             <h3 className={style.empresa}>Soy Henry</h3>
@@ -29,9 +29,9 @@ const Experiencia = () => {
                             <h4 className={style.fecha}>Mar 2023 - Nov 2023</h4>
                         </div>
                         <div className={style.contLogo}>
-                            <a href="https://www.soyhenry.com/" target="blank" className={style.a}>
+                            <div className={style.a}>
                                 <img className={style.logo} src={henry} alt="henry" />
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className={style.abajo}>
@@ -39,9 +39,9 @@ const Experiencia = () => {
                             bases de datos relacionales. En mi perfil de GitHub se pueden ver los diferentes
                             proyectos finalizados tanto de forma individual como grupal.</h5>
                     </div>
-                </div>
+                </a>
 
-                <div className={style.card}>
+                <a href="https://i.ibb.co/pPh4x6X/tecnicam.jpg" target="blank" className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
                             <h3 className={style.empresa}>TECNICAM cctv</h3>
@@ -49,9 +49,9 @@ const Experiencia = () => {
                             <h4 className={style.fecha}>Jun 2015 - Actualmente</h4>
                         </div>
                         <div className={style.contLogo}>
-                            <a href="https://i.ibb.co/pPh4x6X/tecnicam.jpg" target="blank" className={style.a}>
+                            <div className={style.a}>
                                 <img className={style.logo} src={tecnicam} alt="henry" />
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className={style.abajo}>
@@ -60,9 +60,9 @@ const Experiencia = () => {
                             cerrados de televisión, con más de 8 años de experiencia en redes locales de internet,
                             configuración de equipos en red y seguridad electrónica.</h6>
                     </div>
-                </div>
+                </a>
 
-                <div className={style.card}>
+                <a href="https://www.alsglobal.com/es/" target="blank" className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
                             <h3 className={style.empresa}>ALS global</h3>
@@ -70,9 +70,9 @@ const Experiencia = () => {
                             <h4 className={style.fecha}>Ene 2015 – Jun 2015</h4>
                         </div>
                         <div className={style.contLogo}>
-                            <a href="https://www.alsglobal.com/es/" target="blank" className={style.a}>
+                            <div className={style.a}>
                                 <img className={style.logo} src={als} alt="henry" />
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className={style.abajo}>
@@ -82,9 +82,9 @@ const Experiencia = () => {
                             para el área de mantenimiento y cuando era necesario apoyar a los operarios de las
                             máquinas cuando había mucho para hacer.</h6>
                     </div>
-                </div>
+                </a>
 
-                <div className={style.card}>
+                <a href="https://www.energitelco.com.co/" target="blank" className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
                             <h3 className={style.empresa}>Energitelco</h3>
@@ -92,17 +92,17 @@ const Experiencia = () => {
                             <h4 className={style.fecha}>Jun 2014 – Dic 2014</h4>
                         </div>
                         <div className={style.contLogo}>
-                            <a href="https://www.energitelco.com.co/" target="blank" className={style.a}>
+                            <div className={style.a}>
                                 <img className={style.logo} src={energitelco} alt="henry" />
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className={style.abajo}>
                         <h5 className={style.apt}>Técnico de instalación de equipos de telecomunicaciones con experiencia en trabajos en alturas, instalación de bancos de baterías, cableado para las diferentes tecnologías (2G, 3G, 4G), instalación de software para equipos programables.</h5>
                     </div>
-                </div>
+                </a>
 
-                <div className={style.card}>
+                <a href="https://www.renaultgroup.com/en/our-company/locations/envigado-sofasa-plant-2/" target="blank" className={style.card}>
                     <div className={style.arriba}>
                         <div className={style.encabezado}>
                             <h3 className={style.empresa}>SOFASA Renault</h3>
@@ -110,15 +110,15 @@ const Experiencia = () => {
                             <h4 className={style.fecha}>Ene 2014 – Jun 2014</h4>
                         </div>
                         <div className={style.contLogo}>
-                            <a href="https://www.renaultgroup.com/en/our-company/locations/envigado-sofasa-plant-2/" target="blank" className={style.a}>
+                            <div className={style.a}>
                                 <img className={style.logo} src={renault} alt="henry" />
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className={style.abajo}>
                         <h6 className={style.apt}>En esta empresa de ensamble de vehículos Renault realicé mi etapa practica haciendo mantenimiento a equipos electromecánicos de soldadura por punto, prensas neumáticas, rieles automáticos en línea de producción, estaba encargado del inventario de herramientas del taller y hacía parte de un proyecto de descontaminación del área laboral en el tema de exceso de CO2 en el área de producción.</h6>
                     </div>
-                </div>
+                </a>
 
             </fieldset>
         </div>
