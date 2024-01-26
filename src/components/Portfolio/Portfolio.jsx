@@ -73,7 +73,7 @@ const Portfolio = () => {
                     <div className={style.divInfoR}>
                         <h3 className={style.infoRflecha}>➤</h3>
                         <a href="#aptitudes" className={style.a}>
-                            <h3 className={style.infoRPalabra}>Aptitudes</h3>
+                            <h3 className={style.infoRPalabra}>Aptitudes y habilidades</h3>
                         </a>
                     </div>
                 </div>

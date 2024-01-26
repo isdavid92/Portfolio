@@ -1,10 +1,80 @@
-.a{
+.contAptitudes {
+    width: 99%;
+    height: 100vh;
+}
+
+.aptitudes {
+    margin: auto;
+    width: 90%;
+    height: 94vh;
+    border: 1px solid rgb(84, 218, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divFlecha {
+    position: absolute;
+    display: flex;
+    top: 480%;
+    right: 10%;
+}
+
+.flecha {
+    color: rgb(84, 218, 255);
+    margin: 0;
+}
+
+.aFlecha {
     text-decoration: none;
 }
 
-.aptitudes{
-    color: white;
-    width: 99%;
-    height: 100vh;
-    border: 1px solid white;
+.home {
+    margin: 0;
+    margin-left: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+    }
+}
+
+.titulo {
+    color: rgb(84, 218, 255);
+}
+
+.contApt {
+    margin: auto 2.8em;
+    width: 18%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.86);
+    border-radius: 7px;
+}
+
+.apt {
+    height: 40%;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.tituloApt {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.878);
+    margin: auto 10px;
+    text-align: start;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tituloApt {
+        font-size: 0.75em;
+    }
+}
+
+.descripApt{
+    margin: auto;
+    color: rgba(137, 214, 249, 0.686);
 }
