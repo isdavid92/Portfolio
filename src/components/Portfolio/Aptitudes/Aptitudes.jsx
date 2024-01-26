@@ -133,6 +133,20 @@ const Aptitudes = () => {
                     <h4 className={style.descripApt}>Habilidades para actuar con honestidad y ética en el trabajo.</h4>
                 </div>
 
+                <div className={style.contApt}>
+                    <div className={style.apt}>
+                        <h3 className={style.tituloApt}>Toma de decisiones:</h3>
+                    </div>
+                    <h4 className={style.descripApt}>Habilidades para tomar decisiones informadas y efectivas en situaciones de trabajo.</h4>
+                </div>
+
+                <div className={style.contApt}>
+                    <div className={style.apt}>
+                        <h3 className={style.tituloApt}>Capacidad de trabajo con datos</h3>
+                    </div>
+                    <h4 className={style.descripApt}>Habilidades para trabajo con bases de datos relacionales.</h4>
+                </div>
+
             </fieldset>
         </div>
     )
