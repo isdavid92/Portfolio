@@ -23,9 +23,9 @@ const Aptitudes = () => {
 
                 <div className={style.contApt}>
                     <div className={style.apt}>
-                        <h3 className={style.tituloApt}>Conocimiento en lenguajes de programación:</h3>
+                        <h3 className={style.tituloApt}>Conocimiento en programación web:</h3>
                     </div>
-                    <h4 className={style.descripApt}>Javascript - HTML - CSS</h4>
+                    <h4 className={style.descripApt}>Javascript - HTML - CSS - React - Redux - PostgreSQL - NodeJS - ExpressJS - Sequelize</h4>
                 </div>
 
                 <div className={style.contApt}>
@@ -72,21 +72,21 @@ const Aptitudes = () => {
 
                 <div className={style.contApt}>
                     <div className={style.apt}>
-                        <h3 className={style.tituloApt}>Habilidad para trabajar en equipo:</h3>
+                        <h3 className={style.tituloApt}>Trabajo en equipo:</h3>
                     </div>
                     <h4 className={style.descripApt}>Habilidades para colaborar con otros desarrolladores y diseñadores.</h4>
                 </div>
 
                 <div className={style.contApt}>
                     <div className={style.apt}>
-                        <h3 className={style.tituloApt}>Habilidad para aprender y adaptarse rápidamente:</h3>
+                        <h3 className={style.tituloApt}>Aprender y adaptarse rápidamente:</h3>
                     </div>
                     <h4 className={style.descripApt}>Habilidades para mantenerse actualizado con las últimas tecnologías y tendencias.</h4>
                 </div>
 
                 <div className={style.contApt}>
                     <div className={style.apt}>
-                        <h3 className={style.tituloApt}>Habilidad para comunicarse efectivamente:</h3>
+                        <h3 className={style.tituloApt}>Comunicación efectiva:</h3>
                     </div>
                     <h4 className={style.descripApt}>Habilidades para comunicarse claramente con otros miembros del equipo y clientes.</h4>
                 </div>

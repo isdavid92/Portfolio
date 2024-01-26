@@ -50,7 +50,7 @@
     height: 18%;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(255, 255, 255, 0.86);
+    border: 1px solid rgb(84, 218, 255);
     border-radius: 7px;
 }
 
@@ -75,6 +75,6 @@
 }
 
 .descripApt{
-    margin: auto;
-    color: rgba(137, 214, 249, 0.686);
+    margin: auto 3px;
+    color: rgba(255, 255, 255, 0.878);
 }
