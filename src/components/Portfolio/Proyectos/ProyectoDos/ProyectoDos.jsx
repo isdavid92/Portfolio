@@ -34,7 +34,7 @@ const ProyectoDos = () => {
             <div className={style.encabezado}>
                 <h3 className={style.fecha}>Ago 2023</h3>
                 <h2 className={style.nombre}>Food</h2>
-                <h5 className={style.descripcion}>En esta aplicación podrás encontrar una gran variedad de recetas de comida en un aproximado de cinco mil o más donde con tan solo escribir el nombre en el buscador, encontrarás múltiples opciones; también puedes agregar tu propia receta con su nombre, descripción, pasos, tipos de dietas, nivel de salud e imagen.</h5>
+                <h6 className={style.descripcion}>En esta aplicación podrás encontrar una gran variedad de recetas de comida en un aproximado de cinco mil o más donde con tan solo escribir el nombre en el buscador, encontrarás múltiples opciones; también puedes agregar tu propia receta con su nombre, descripción, pasos, tipos de dietas, nivel de salud e imagen.</h6>
                 <a href="https://github.com/isdavid92/PI-Food-main" target="blank" className={style.a}>
                     <p className={style.ir}>{"Ir al repositorio >>"}</p>
                 </a>
