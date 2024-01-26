@@ -33,7 +33,7 @@
     margin-left: 0.5em;
     color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    
+
     &:hover {
         color: rgb(97, 218, 251);
         text-decoration: underline;
@@ -52,10 +52,25 @@
     -moz-box-shadow: 0px -1px 16px 3px rgba(255, 255, 255, 0.64);
 }
 
-.contPantallazo {
-    background-color: rgba(0, 255, 255, 0.193);
+.relleno{
     height: 100%;
     width: 50%;
+}
+
+.contPantallazo {
+    height: 100%;
+    position: relative;
+}
+
+.contPantallazoFull {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    cursor: zoom-out;
 }
 
 .pantallazo {
@@ -63,9 +78,13 @@
     height: 100%;
     margin: 0;
     cursor: zoom-in;
-    &:hover{
-        height: 100vh;
-    }
+}
+
+.pantallazoFull {
+    margin: auto;
+    height: 100%;
+    margin: 0;
+    cursor: zoom-out;
 }
 
 .titulo {
@@ -81,36 +100,33 @@
 
 .nombre {
     color: white;
-    margin: 7px 0 0 20px;
+    margin: 5px 0 0 20px;
 }
 
-.logro {
+.fecha {
     font-size: 1em;
     color: rgb(5, 171, 217);
     margin: 7px 0 0 20px;
     text-align: start;
 }
 
-@media only screen and (max-width: 1200px) {
-    .logro {
-        font-size: 0.75em;
-    }
-}
-
-.fecha {
+.descripcion {
     color: rgb(179, 179, 179);
-    margin: 7px 0 0 20px;
+    margin: 15px 20px 0 20px;
+    text-align: justify;
 }
 
 .a {
     text-decoration: none;
+    margin: auto 0 0 20px;
 }
 
 .ver {
+    margin: 0 0 0 0;
     color: rgb(8, 145, 183);
-    margin: 12px 0 0 20px;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         text-decoration: underline;
     }
 }

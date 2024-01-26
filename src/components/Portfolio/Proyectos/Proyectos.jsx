@@ -1,7 +1,15 @@
 import style from "./Proyectos.module.css";
 import moveon from "../../../Assets/img/moveon.jpg";
+import { useState } from "react";
 
 const Proyectos = () => {
+
+    const [isFullScreen, setIsFullScreen] = useState(false);
+
+    const contFullScreen = () => !isFullScreen ? style.contPantallazo : style.contPantallazoFull;
+
+    const pantallazoFullScreen = () => !isFullScreen ? style.pantallazo : style.pantallazoFull
+
     return (
         <div className={style.contProyectos} id="proyectos">
             <fieldset className={style.proyectos}>
@@ -18,15 +26,18 @@ const Proyectos = () => {
                 </legend>
 
                 <div className={style.card}>
-                    <div className={style.contPantallazo}>
-                        <img className={style.pantallazo} src={moveon} alt="henry" />
+                    <div className={style.relleno}>
+                        <div className={contFullScreen()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)}>
+                            <img className={pantallazoFullScreen()} onClick={() => !isFullScreen ? setIsFullScreen(true) : setIsFullScreen(false)} src={moveon} alt="henry" />
+                        </div>
                     </div>
                     <div className={style.encabezado}>
-                        <h3 className={style.nombre}>moveon</h3>
-                        <h3 className={style.logro}>Programador Web Full Stack</h3>
-                        <h4 className={style.fecha}>Sep 2023</h4>
-                        <a href="https://certificates.soyhenry.com/new-cert?id=ebb3efb79682b045e43b41f61ed915a44a595116857cc2a4d4b7a6885fff8b44" target="blank" className={style.a}>
-                            <p className={style.ver}>{"Ver repositorio aquí >>"}</p>
+                        <h2 className={style.nombre}>MoveOn</h2>
+                        <h3 className={style.fecha}>Sep 2023</h3>
+                        <h5 className={style.descripcion}>Tienda virtual que permite la compra de productos deportivos, suplementos y   proteína.
+                            Cuenta con dos vistas, usuario, y admin, con ambos permite registrarse, comprar, ver los productos, filtrarlos, modificar el perfil. Siendo admin podrá agregar y modificar productos, ver usuarios registrados y actualiza el estado de la compra.</h5>
+                        <a href="https://github.com/fernandoiosono/HENRYPF?tab=readme-ov-file" target="blank" className={style.a}>
+                            <p className={style.ver}>{"Ir al repositorio >>"}</p>
                         </a>
                     </div>
                 </div>
