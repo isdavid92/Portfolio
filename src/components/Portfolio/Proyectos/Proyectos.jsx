@@ -1,4 +1,5 @@
 import ProyectoDos from "./ProyectoDos/ProyectoDos";
+import ProyectoTres from "./ProyectoTres/ProyectoTres";
 import ProyectoUno from "./ProyectoUno/ProyectoUno";
 import style from "./Proyectos.module.css";
 
@@ -20,6 +21,7 @@ const Proyectos = () => {
 
                     <ProyectoUno />
                     <ProyectoDos />
+                    <ProyectoTres />
 
                 </fieldset>
         </div>

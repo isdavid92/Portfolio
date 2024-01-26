@@ -1,12 +1,12 @@
 .contProyectos {
     width: 99%;
-    height: 100vh;
+    height: 170vh;
 }
 
 .proyectos {
     margin: auto;
     width: 90%;
-    height: 90vh;
+    height: 95%;
     border: 1px solid rgb(84, 218, 255);
     display: flex;
     flex-wrap: wrap;
