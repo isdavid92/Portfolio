@@ -34,7 +34,7 @@ const ProyectoUno = () => {
             <div className={style.encabezado}>
                 <h3 className={style.fecha}>Sep 2023</h3>
                 <h2 className={style.nombre}>MoveOn</h2>
-                <h6 className={style.descripcion}>Tienda virtual que permite la compra de productos deportivos, suplementos y   proteína. Cuenta con dos vistas, usuario, y admin, con ambos permite registrarse, comprar, ver los productos, filtrarlos, modificar el perfil. Siendo admin podrá agregar y modificar productos, ver usuarios registrados y actualiza el estado de la compra.</h6>
+                <h5 className={style.descripcion}>Tienda virtual que permite la compra de productos deportivos, suplementos y   proteína. Cuenta con dos vistas, usuario, y admin, con ambos permite registrarse, comprar, ver los productos, filtrarlos, modificar el perfil. Siendo admin podrá agregar y modificar productos, ver usuarios registrados y actualiza el estado de la compra.</h5>
                 <a href="https://github.com/fernandoiosono/HENRYPF?tab=readme-ov-file" target="blank" className={style.a}>
                     <p className={style.ir}>{"Ir al repositorio >>"}</p>
                 </a>
