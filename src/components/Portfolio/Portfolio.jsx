@@ -17,7 +17,7 @@ const Portfolio = () => {
             <div className={style.encabezado}>
                 <img src={foto} alt="foto" className={style.foto} />
                 <h1 className={style.nombre}>Israel David Aguilar Cepeda</h1>
-                <h4 className={style.presentacion}>Soy un programador web full stack apasionado y dedicado, con experiencia en una variedad de lenguajes de programación y tecnologías. Estoy comprometido con la mejora continua y tengo una gran capacidad para aprender rápidamente nuevas tecnologías. En el futuro, aspiro a liderar proyectos que impulsen la innovación y la eficiencia, contribuyendo al crecimiento continuo del campo tecnológico.</h4>
+                <h4 className={style.presentacion}>Soy un desarrollador web apasionado que busca integrarse a un equipo dinámico donde pueda impactar de manera productiva en la industria TECH. Con una sólida experiencia y una notable creatividad, estoy comprometido en revolucionar el mundo de la programación y aportar valor a cada proyecto. Mi objetivo es demostrar todas mis capacidades y contribuir al éxito del grupo al que me una.</h4>
             </div>
             <div className={style.info}>
                 <div className={style.infoL}>
