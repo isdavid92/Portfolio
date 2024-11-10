@@ -1,120 +1,247 @@
-.Portfolio{
+.Portfolio {
     background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.descBoton{
+.descBoton {
     position: absolute;
     transform: translateX(-65vh) translateY(4vh) skew(-15deg);
     border: 1px solid rgb(71, 168, 195);
     border-style: none solid solid none;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         border: 1px solid rgb(84, 218, 255);
         border-style: none solid solid none;
     }
 }
 
-.descargar{
+.descargar {
     margin: 5px 15px;
     color: rgb(150, 145, 145);
-    &:hover{
+
+    &:hover {
         color: rgb(203, 201, 201);
     }
 }
 
-.encabezado{
+.encabezado {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 55vh;
 }
 
-.info{
-    display: flex;
-    width: 100%;
-    height: 45vh;
-}
-
-.foto{
+.foto {
     width: 10em;
     border-radius: 10em;
     margin-top: auto;
     border: 3px solid rgb(192, 192, 192);
 }
 
-.nombre{
-    color: rgb(97,218,251);
+.nombre {
+    color: rgb(97, 218, 251);
 }
 
-.presentacion{
+.presentacion {
     color: rgb(255, 255, 255);
     width: 70%;
-    text-align: center;
+    text-align: justify;
     margin-top: 0;
     margin-bottom: auto;
 }
 
-.infoL{
+.info {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+}
+
+.infoL {
     width: 50%;
 }
 
-.divInfoL{
+.divInfoL {
+    height: 20%;
     display: flex;
-    align-items: center;
-    height: 19%;
 }
 
-.icon{
-    width: 2.4em;
-    margin-left: 27%;
-    cursor: pointer;
-}
-
-.a{
+.aL {
     text-decoration: none;
-}
+    width: max-content;
+    height: min-content;
+    display: flex;
+    margin: auto;
+    margin-left: 29%;
 
-.infoIcon{
-    margin: 0;
-    margin-left: 0.5em;
-    color: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-    &:hover{
-        color: rgb(97,218,251);
-        text-decoration: underline;
+    &:hover {
+        .infoIcon {
+            text-decoration: underline;
+            color: rgb(97, 218, 251);
+        }
     }
 }
 
-.infoR{
+.icon {
+    width: 2.5em;
+    height: 100%;
+}
+
+
+.infoIcon {
+    margin: auto;
+    margin-left: 2em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.infoR {
     width: 50%;
 }
 
-.divInfoR{
+.divInfoR {
     display: flex;
-    align-items: center;
-    height: 19%;
+    height: 20%;
 }
 
-.infoRflecha{
-    color: rgb(97,218,251);
-    margin-right: 0.5em;
-    margin-left: 27%;
-}
+.aR {
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    margin-left: 30%;
+    width: max-content;
+    height: min-content;
 
-.infoRPalabra{
-    margin: 0;
-    margin-left: 0.5em;
-    color: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-    &:hover{
-        color: rgb(97,218,251);
-        text-decoration: underline;
+    &:hover {
+        .infoRPalabra {
+            color: rgb(97, 218, 251);
+            text-decoration: underline;
+        }
     }
 }
 
-.copyright{
-    color: rgb(97,218,251);
+.infoRflecha {
+    color: rgb(97, 218, 251);
+    margin: auto;
+}
+
+.infoRPalabra {
+    color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    margin-left: 2em;
+}
+
+.copyright {
+    color: rgb(97, 218, 251);
+}
+
+
+
+/*! --------------------------------------------------------RESPONSIVE--------------------------------------------------------------- */
+
+
+
+
+
+@media (max-width: 800px) {
+    .descBoton {
+        transform: translateX(-30vh) translateY(4vh) skew(-15deg);
+    }
+
+    .nombre {
+        font-size: 4.5vw;
+    }
+
+    .presentacion {
+        width: 80%;
+        text-align: justify;
+        font-size: 2vw;
+    }
+
+    .aL {
+        margin-left: 20%;
+    }
+
+    .aR {
+        margin-left: 10%;
+    }
+
+    .infoIcon {
+        margin-left: 1em;
+        font-size: 2.2vw;
+    }
+
+    .infoRPalabra {
+        margin-left: 1em;
+        font-size: 2.2vw;
+    }
+}
+
+@media (max-width: 440px) {
+    .descBoton {
+        transform: translateX(-20vh) translateY(1.5vh) skew(-15deg);
+    }
+
+    .encabezado {
+        height: 60vh;
+    }
+
+    .foto {
+        border-radius: 10em;
+        margin-top: auto;
+        border: 3px solid rgb(192, 192, 192);
+    }
+
+    .nombre {
+        font-size: 6vw;
+    }
+
+    .presentacion {
+        width: 85%;
+        font-size: 3.5vw;
+    }
+
+    .info {
+        height: 40vh;
+        flex-direction: column;
+    }
+
+    .infoL {
+        margin: auto;
+        width: 90%;
+        height: 30%;
+        display: flex;
+    }
+
+    .divInfoL {
+        margin: auto;
+        height: min-content;
+    }
+
+    .icon {
+        width: 3.5em;
+    }
+
+    .infoIcon {
+        display: none;
+    }
+
+    .infoR {
+        height: 70%;
+        width: 100%;
+    }
+
+    .divInfoR {
+        margin: auto;
+        height: 22%;
+    }
+    
+    .aR {
+        margin-left: 25%;
+    }
+
+    .infoRPalabra {
+        font-size: 1em;
+    }
 }
