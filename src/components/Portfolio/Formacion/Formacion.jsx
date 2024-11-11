@@ -7,16 +7,16 @@ const Formacion = () => {
         <div className={style.contFormacion} id="contFormacion">
             <fieldset className={style.formacion}>
 
-                <div className={style.divFlecha}>
-                    <h3 className={style.flecha}>➤</h3>
-                    <a href="#portfolio" className={style.aFlecha}>
-                        <h3 className={style.home}>Home</h3>
-                    </a>
-                </div>
-
                 <legend>
                     <h1 className={style.titulo}>FORMACION</h1>
                 </legend>
+
+                <div className={style.divFlecha}>
+                    <a href="#portfolio" className={style.aFlecha}>
+                        <h3 className={style.flecha}>➤</h3>
+                        <h3 className={style.home}>Home</h3>
+                    </a>
+                </div>
 
                 <div className={style.card}>
                     <div className={style.arriba}>
