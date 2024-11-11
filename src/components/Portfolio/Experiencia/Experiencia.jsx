@@ -10,16 +10,16 @@ const Experiencia = () => {
         <div className={style.contExperiencia} id="experiencia">
             <fieldset className={style.experiencia}>
 
-                <div className={style.divFlecha}>
-                    <h3 className={style.flecha}>➤</h3>
-                    <a href="#portfolio" className={style.aFlecha}>
-                        <h3 className={style.home}>Home</h3>
-                    </a>
-                </div>
-
                 <legend>
                     <h1 className={style.titulo}>EXPERIENCIA</h1>
                 </legend>
+
+                <div className={style.divFlecha}>
+                    <a href="#portfolio" className={style.aFlecha}>
+                        <h3 className={style.flecha}>➤</h3>
+                        <h3 className={style.home}>Home</h3>
+                    </a>
+                </div>
 
                 <a href="https://www.soyhenry.com/" target="blank" className={style.card}>
                     <div className={style.arriba}>
