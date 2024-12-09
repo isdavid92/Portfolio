@@ -7,23 +7,24 @@ const Proyectos = () => {
 
     return (
         <div className={style.contProyectos} id="proyectos">
-                <fieldset className={style.proyectos}>
+            <fieldset className={style.proyectos}>
 
-                    <div className={style.divFlecha}>
+                <legend>
+                    <h1 className={style.titulo}>PROYECTOS</h1>
+                </legend>
+
+                <div className={style.divFlecha}>
+                    <a href="#portfolio" className={style.aFlecha}>
                         <h3 className={style.flecha}>➤</h3>
-                        <a href="#portfolio" className={style.aFlecha}>
-                            <h3 className={style.home}>Home</h3>
-                        </a>
-                    </div>
-                    <legend>
-                        <h1 className={style.titulo}>PROYECTOS</h1>
-                    </legend>
+                        <h3 className={style.home}>Home</h3>
+                    </a>
+                </div>
 
-                    <ProyectoUno />
-                    <ProyectoDos />
-                    <ProyectoTres />
+                <ProyectoUno />
+                <ProyectoDos />
+                <ProyectoTres />
 
-                </fieldset>
+            </fieldset>
         </div>
     )
 };

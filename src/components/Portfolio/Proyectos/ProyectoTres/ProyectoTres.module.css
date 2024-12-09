@@ -1,7 +1,7 @@
 .ProyectoTres {
     margin: auto;
-    width: 60vh;
-    height: 60vh;
+    width: 35%;
+    height: 45vh;
     border: 1px solid black;
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -55,8 +55,7 @@
 }
 
 .pantallazoFull {
-    margin: auto;
-    height: 80%;
+    width: 80%;
     margin: 0;
     cursor: zoom-out;
     border: 1px solid rgb(5, 171, 217);
@@ -120,4 +119,76 @@
     &:hover {
         text-decoration: underline;
     }
+}
+
+
+
+
+
+/*! --------------------------------------------------------RESPONSIVE--------------------------------------------------------------- */
+
+
+
+
+
+@media (max-width: 1530px) {
+    .ProyectoTres {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .ProyectoTres {
+        height: 45vh;
+        width: 80%;
+    }
+}
+
+@media (max-width: 440px) {
+    .ProyectoTres {
+        height: 40vh;
+        width: 90%;
+    }
+
+    .fecha {
+        font-size: 0.8em;
+        margin: 5px 0 2px 15px;
+    }
+
+    .nombre {
+        margin: 0 0 2px 15px;
+        font-size: 1.1em;
+    }
+
+    .descripcion {
+        margin: 4px 15px 0 15px;
+        font-size: 7.5px;
+    }
+
+    .a {
+        margin: 3px 0 auto 15px;
+    }
+
+    .ir {
+        font-size: 14px;
+        color: rgb(163, 79, 241);
+    }
+
+    .aptitudes {
+        display: flex;
+        margin: auto 0 4px 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .aptitudImg {
+        margin: 0 15px 5px 0;
+        height: 13px;
+    }
+
+    .aptitud {
+        margin: 0 15px 5px 0;
+        font-size: 9px;
+    }
+
 }

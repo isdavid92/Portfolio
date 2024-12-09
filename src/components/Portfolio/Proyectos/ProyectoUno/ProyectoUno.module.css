@@ -1,7 +1,7 @@
 .proyectoUno {
     margin: auto;
-    width: 60vh;
-    height: 60vh;
+    width: 35%;
+    height: 42vh;
     border: 1px solid black;
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -10,7 +10,7 @@
     -moz-box-shadow: 0px -1px 9px 3px rgba(255, 255, 255, 0.8);
 }
 
-.pantallazos{
+.pantallazos {
     flex-direction: column;
     display: flex;
     width: 50%;
@@ -32,6 +32,14 @@
     display: flex;
 }
 
+.pantallazo {
+    margin: auto;
+    width: 100%;
+    margin: 0;
+    cursor: zoom-in;
+    border: 1px solid rgb(2, 88, 112);
+}
+
 .contPantallazoFull {
     width: 100%;
     position: fixed;
@@ -46,17 +54,8 @@
     justify-content: center;
 }
 
-.pantallazo {
-    margin: auto;
-    width: 100%;
-    margin: 0;
-    cursor: zoom-in;
-    border: 1px solid rgb(2, 88, 112);
-}
-
 .pantallazoFull {
-    margin: auto;
-    height: 80%;
+    width: 80%;
     margin: 0;
     cursor: zoom-out;
     border: 1px solid rgb(5, 171, 217);
@@ -87,26 +86,6 @@
     text-align: justify;
 }
 
-.aptitudes{
-    display: flex;
-    margin: auto 0 4px 20px;
-    flex-wrap: wrap;
-    justify-content:space-between;
-}
-
-.aptitud{
-    margin: 0 20px 5px 0;
-    border-radius: 5px;
-    padding: 0 4px 1px 4px;
-    background-color: rgb(84, 218, 255);
-}
-
-.aptitudImg{
-    margin: 0 20px 5px 0;
-    border: 1px solid rgb(84, 218, 255);
-    border-radius: 5px;
-}
-
 .a {
     text-decoration: none;
     margin: 3px 0 auto 20px;
@@ -120,4 +99,96 @@
     &:hover {
         text-decoration: underline;
     }
+}
+
+.aptitudes {
+    display: flex;
+    margin: auto 0 4px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aptitudImg {
+    margin: 0 20px 5px 0;
+    border: 1px solid rgb(84, 218, 255);
+    border-radius: 5px;
+}
+
+.aptitud {
+    margin: 0 20px 5px 0;
+    border-radius: 5px;
+    padding: 0 4px 1px 4px;
+    background-color: rgb(84, 218, 255);
+}
+
+
+
+
+
+/*! --------------------------------------------------------RESPONSIVE--------------------------------------------------------------- */
+
+
+
+
+
+@media (max-width: 1530px) {
+    .proyectoUno {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .proyectoUno {
+        width: 80%;
+        height: 45vh;
+    }
+}
+
+@media (max-width: 440px) {
+    .proyectoUno {
+        height: 40vh;
+        width: 90%;
+    }
+
+    .fecha {
+        font-size: 0.8em;
+        margin: 5px 0 2px 15px;
+    }
+
+    .nombre {
+        margin: 0 0 2px 15px;
+        font-size: 1.1em;
+    }
+
+    .descripcion {
+        margin: 4px 15px 0 15px;
+        font-size: 7.5px;
+    }
+
+    .a {
+        margin: 3px 0 auto 15px;
+    }
+
+    .ir {
+        font-size: 14px;
+        color: rgb(163, 79, 241);
+    }
+
+    .aptitudes {
+        display: flex;
+        margin: auto 0 4px 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .aptitudImg {
+        margin: 0 15px 5px 0;
+        height: 13px;
+    }
+
+    .aptitud {
+        margin: 0 15px 5px 0;
+        font-size: 9px;
+    }
+
 }

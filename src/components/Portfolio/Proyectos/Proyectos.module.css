@@ -1,22 +1,38 @@
 .contProyectos {
     width: 99%;
-    height: 170vh;
+    height: 130vh;
 }
 
 .proyectos {
     margin: auto;
-    width: 90%;
+    width: 70%;
     height: 95%;
     border: 1px solid rgb(84, 218, 255);
     display: flex;
     flex-wrap: wrap;
 }
 
+.titulo {
+    color: rgb(84, 218, 255);
+    margin: 0;
+}
+
 .divFlecha {
-    position: absolute;
+    width: 90%;
+    height: min-content;
     display: flex;
-    top: 310%;
-    right: 10%;
+    margin: 0 auto;
+}
+
+.aFlecha {
+    margin-left: auto;
+    display: flex;
+    text-decoration: none;
+
+    &:hover .home {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+    }
 }
 
 .flecha {
@@ -24,22 +40,49 @@
     margin: 0;
 }
 
-.aFlecha {
-    text-decoration: none;
-}
-
 .home {
     margin: 0;
-    margin-left: 0.5em;
+    margin-left: 1em;
     color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
+}
 
-    &:hover {
-        color: rgb(97, 218, 251);
-        text-decoration: underline;
+
+
+
+
+/*! --------------------------------------------------------RESPONSIVE--------------------------------------------------------------- */
+
+
+
+
+
+@media (max-width: 1530px) {
+    .contProyectos {
+        height: 190vh;
+    }
+
+    .proyectos {
+        width: 80%;
     }
 }
 
-.titulo {
-    color: rgb(84, 218, 255);
+@media (max-width: 800px) {
+    .contProyectos {
+        height: 180vh;
+    }
+    .proyectos {
+        width: 80%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 440px) {
+    .contProyectos {
+        height: 160vh;
+    }
+    .proyectos {
+        width: 85%;
+    }
 }
