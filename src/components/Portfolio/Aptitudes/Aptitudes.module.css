@@ -6,17 +6,32 @@
 .aptitudes {
     margin: auto;
     width: 90%;
-    height: 94vh;
+    height: 94%;
     border: 1px solid rgb(84, 218, 255);
     display: flex;
     flex-wrap: wrap;
 }
 
+.titulo {
+    color: rgb(84, 218, 255);
+}
+
 .divFlecha {
-    position: absolute;
+    width: 90%;
+    height: min-content;
     display: flex;
-    top: 478%;
-    right: 10%;
+    margin: 0 auto;
+}
+
+.aFlecha {
+    margin-left: auto;
+    display: flex;
+    text-decoration: none;
+
+    &:hover .home {
+        color: rgb(97, 218, 251);
+        text-decoration: underline;
+    }
 }
 
 .flecha {
@@ -24,24 +39,11 @@
     margin: 0;
 }
 
-.aFlecha {
-    text-decoration: none;
-}
-
 .home {
     margin: 0;
-    margin-left: 0.5em;
+    margin-left: 1em;
     color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
-
-    &:hover {
-        color: rgb(97, 218, 251);
-        text-decoration: underline;
-    }
-}
-
-.titulo {
-    color: rgb(84, 218, 255);
 }
 
 .contApt {
@@ -74,7 +76,64 @@
     }
 }
 
-.descripApt{
+.descripApt {
     margin: auto 3px;
     color: rgba(255, 255, 255, 0.878);
+}
+
+
+
+
+
+
+/*! --------------------------------------------------------RESPONSIVE--------------------------------------------------------------- */
+
+
+
+
+
+@media (max-width: 800px) {
+    .contAptitudes {
+        height: 120vh;
+    }
+
+    .aptitudes {
+        width: 90%;
+    }
+
+    .contApt {
+        width: 20%;
+    }
+
+    .tituloApt {
+        margin: auto 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 440px) {
+    .contAptitudes {
+        height: 140vh;
+    }
+
+    .aptitudes {
+        width: 90%;
+        height: 96%;
+    }
+
+    .contApt {
+        width: 36%;
+        height: 9%;
+    }
+
+    .tituloApt {
+        margin: auto 2px;
+        font-size: 10px;
+    }
+
+    .descripApt {
+        margin: auto 2px;
+        font-size: 10px;
+    }
 }

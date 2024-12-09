@@ -5,16 +5,16 @@ const Aptitudes = () => {
         <div className={style.contAptitudes} id="aptitudes">
             <fieldset className={style.aptitudes}>
 
-                <div className={style.divFlecha}>
-                    <h3 className={style.flecha}>➤</h3>
-                    <a href="#portfolio" className={style.aFlecha}>
-                        <h3 className={style.home}>Home</h3>
-                    </a>
-                </div>
-
                 <legend>
                     <h1 className={style.titulo}>Aptitudes y habilidades</h1>
                 </legend>
+
+                <div className={style.divFlecha}>
+                    <a href="#portfolio" className={style.aFlecha}>
+                        <h3 className={style.flecha}>➤</h3>
+                        <h3 className={style.home}>Home</h3>
+                    </a>
+                </div>
 
                 <div className={style.contApt}>
                     <div className={style.apt}>
